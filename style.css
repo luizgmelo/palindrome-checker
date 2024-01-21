@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  height: 98vh;
+  gap: 20px;
+}
+
+.input-button {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+input[type="text"] {
+  border: 1px solid #000;
+  border-radius: 5px;
+  height: 30px;
+  width: 300px;
+  padding-left: 10px; 
+  font-size: 1.1em;
+}
+
+button {
+  width: 50px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #73EA05;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #60EB88;
+}
